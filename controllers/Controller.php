@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controller;
+
 abstract class Controller {
 
     // Faz o redirecionamento da página para uma URL específica

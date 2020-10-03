@@ -1,8 +1,9 @@
 <?php
 
-require_once("controllers/Controller.php");
-require_once("models/TimeModel.php");
-require_once("models/vo/TimeVO.php");
+namespace App\Controller;
+
+use App\Model\TimeModel;
+use App\Model\VO\TimeVO;
 
 final class TimeController extends Controller {
 

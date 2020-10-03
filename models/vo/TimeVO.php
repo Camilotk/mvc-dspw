@@ -1,5 +1,5 @@
 <?php
-require_once("models/vo/VO.php");
+namespace App\Model\VO;
 
 final class TimeVO extends VO {
 

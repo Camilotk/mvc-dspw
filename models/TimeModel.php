@@ -1,8 +1,9 @@
 <?php
 
-require_once("models/Model.php");
-require_once("classes/Database.php");
-require_once("models/vo/TimeVO.php");
+namespace App\Model;
+
+use App\Model\VO\TimeVO;
+use App\DB\Database;
 
 final class TimeModel extends Model {
 

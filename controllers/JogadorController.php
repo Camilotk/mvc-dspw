@@ -1,9 +1,10 @@
 <?php
 
-require_once("controllers/Controller.php");
-require_once("models/JogadorModel.php");
-require_once("models/vo/JogadorVO.php");
-require_once("models/TimeModel.php");
+namespace App\Controller;
+
+use App\Model\JogadorModel;
+use App\Model\TimeModel;
+use App\Model\VO\JogadorVO;
 
 final class JogadorController extends Controller {
 

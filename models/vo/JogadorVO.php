@@ -1,6 +1,6 @@
 <?php
 
-require_once("models/vo/VO.php");
+namespace App\Model\VO;
 
 final class JogadorVO extends VO {
 

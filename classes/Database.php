@@ -1,10 +1,17 @@
 <?php
 
+namespace App\DB;
+
+use Dotenv\Dotenv;
+use \PDO;
+
 final class Database {
 
     public function __construct() {
+        $dotenv = Dotenv::createMutable(__DIR__ . '/../');
+        $dotenv->load();
         // Instancia o objeto da Classe PDO, com a string de conexão
-        $this->connection = new PDO("mysql:host=" . HOST . ";dbname=" . BASE, USER, PASS);
+        $this->connection = new PDO("mysql:host=" . $_ENV['HOST'] . ";dbname=" . $_ENV['BASE'], $_ENV['USER'], $_ENV['PASS']);
 		$this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
     

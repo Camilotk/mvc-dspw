@@ -1,8 +1,9 @@
 <?php
 
-require_once("models/Model.php");
-require_once("classes/Database.php");
-require_once("models/vo/JogadorVO.php");
+namespace App\Model;
+
+use App\Model\VO\JogadorVO;
+use App\DB\Database;
 
 final class JogadorModel extends Model {
 
