@@ -1,0 +1,11 @@
+{
+    "name": "ccazevedo/mvc",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Camilo Cunha de Azevedo",
+            "email": "Camilotk@gmail.com"
+        }
+    ],
+    "require": {}
+}
