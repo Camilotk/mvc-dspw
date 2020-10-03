@@ -1,7 +1,7 @@
 <?php
+require 'vendor/autoload.php';
 
-require_once("config.php");
-require_once("controllers/TimeController.php");
+use App\Controller\TimeController;
 
 $controller = new TimeController();
 $controller->selectAll();
