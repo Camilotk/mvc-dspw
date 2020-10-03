@@ -1,7 +1,7 @@
 <?php
+require 'vendor/autoload.php';
 
-require_once("config.php");
-require_once("controllers/JogadorController.php");
+use App\Controller\JogadorController;
 
 $controller = new JogadorController();
 $controller->delete();
